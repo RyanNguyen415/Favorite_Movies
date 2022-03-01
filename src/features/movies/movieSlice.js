@@ -20,7 +20,7 @@ export const fetchAsyncShows = createAsyncThunk(
     const response = await movieApi.get(
       `?apiKey=${APIKey}&s=${seriesText}&type=series`
     );
-    return response.data;
+    return response.data; 
   }
 );
 

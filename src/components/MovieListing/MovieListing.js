@@ -17,7 +17,7 @@ const MovieListing = () => {
     ) : (
       <div className="movies-error">
         <h3>{movies.Error}</h3>
-      </div>
+      </div> 
     );
 
   renderShows =
