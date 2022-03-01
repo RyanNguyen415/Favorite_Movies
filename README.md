@@ -1,1 +1,1 @@
-Second Project for movies
+My favorite movies page
